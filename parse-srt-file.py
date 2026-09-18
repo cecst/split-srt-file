@@ -24,6 +24,7 @@ output_file2 = "/home1/widman/Videos/Seven Samurai 1954.2.srt"
 first_segment_duration_hour  = 1; 
 first_segment_duration_min   = 52; 
 first_segment_duration_sec   = 0; 
+intermission_string          = '<font color="#ff8040">INTERMISSION</font>'
 
 # global flags
 epoch_counter = 0
@@ -130,7 +131,7 @@ while True:
       fp_out1.write("\n")
 
     # now check to see whether we have found the end of the first DVD
-    if text1 == '<font color="#ff8040">INTERMISSION</font>':
+    if text1 == intermission_string:
        intermission_flag = 1
        # this is the duration of the first DVD including the end-matter
        time_offset_hour  = first_segment_duration_hour; 
