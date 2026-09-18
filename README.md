@@ -10,4 +10,4 @@ The files uploaded initially are:
 - Seven Samurai 1954.1.srt : the subtitle file for the first of two DVDs that hold the Seven Samurai 1954 movie
 - Seven Samurai 1954.2.srt : the subtitle file for the second of two DVDs that hold the Seven Samurai 1954 movie
 
-- Comments to: github.com@cecst.com
+Comments to: github.com@cecst.com
